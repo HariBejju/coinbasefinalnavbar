@@ -22,14 +22,14 @@
     }
     
 /* LOGO */
-.logo {
-    font-size: 32px;
+.logo img{
+    height: 20px;
     }
     
     /* NAVBAR MENU */
     .menu {
     display: flex;
-    gap: 1em;
+   
     font-size: 18px;
     list-style-type: none;
     
@@ -46,6 +46,10 @@
     }
     .menu li a{
         text-decoration: none;
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
     }
     .buttons a{
         padding-right: 10px;
@@ -91,10 +95,8 @@
         
         }
         
-        .menu li:hover {
-        display: inline-block;
-        background-color:#4c9e9e;
-        transition: 0.3s ease;
+        .navbar{
+            justify-content: space-between;
         }
         
         .menu li + li {
